@@ -1,0 +1,228 @@
+风机编号
+主要信息时间
+wtur_wtid
+wman_autostartseconds
+自启动次数
+wtur_flt_sum
+wcnv_inverter_temp
+wcnv_control_temp
+wcnv_reactor_temp
+wcnv_gen1_inverter_temp
+wcnv_gen1_controller_temp
+wcnv_gen2_inverter_temp
+wcnv_gen2_controller_temp
+wtur_18dp_flt
+wtur_1dp_flt
+wtur_20dp_flt
+wtur_41dp_flt
+wtur_42dp_flt
+wtur_43dp_flt
+wtur_8dp_flt
+能量控制模式
+wrot_pitch1_flt1
+wrot_pitch1_flt2
+wrot_pitch1_flt3
+wrot_pitch2_flt1
+wrot_pitch2_flt2
+wrot_pitch2_flt3
+wrot_pitch3_flt1
+wrot_pitch3_flt2
+wrot_pitch3_flt3
+wtur_80dp_flt
+wtur_stop_modeword
+wtur_temp_cpu
+wtur_temp_brakercabinet
+wtur_temp_ambient
+wcnv_temp
+故障停机等级
+故障启机等级
+故障偏航等级
+故障复位等级
+故障不激活字
+动作停机等级
+动作启机等级
+动作复位等级
+动作偏航等级
+全局停机等级
+全局偏航等级
+变流系统类型
+变压系统类型
+wnac_bus_type
+wnac_errdef_type
+wtur_grid_type
+总发电量
+消耗电量
+通电时间
+系统正常时间
+故障时间（h）
+定期维护时间
+wtur_tmstop_acttmval
+发电时间（h）
+wtur_tmgridflt_acttmval
+wtur_tmlowspeed_acttmval
+wtur_tmhighspeed_acttmval
+wtur_tmhightep_acttmval
+wtur_tmlowtep_acttmval
+wtur_tmgh_acttmval
+wtur_tmghelec_acttmval
+环境ok时间
+wtur_environment_notok
+风速
+wcnv_pressure
+wrot_pressure
+偏航位置
+wyaw_ang
+wyaw_speed
+wyaw_wkhours1_mt
+wyaw_wkhours2_mt
+wyaw_wkhours3_mt
+wcnv_work_tim
+25s平均风向(°)
+风向
+wgen_g-spd_instmag_i
+发电机物理转速1(rpm)
+发电机物理转速2(rpm)
+发电机转速
+x方向加速度
+y方向加速度
+加速度峰值
+加速度有效值
+发电机绕组温度1
+发电机绕组温度2
+发电机绕组温度3
+发电机绕组温度4
+发电机绕组温度5
+发电机绕组温度6
+wgen_sensormaxtmp
+wyaw_pos3
+wyaw_pos4
+wcnv_gridactivepower
+l1电压
+l2电压
+l3电压
+i1电流
+i2电流
+i3电流
+网侧有功功率(kw)
+电网频率
+变流器无功功率
+电网功率因数
+控制柜温度
+机舱变频柜温度
+环境温度
+机舱温度
+变桨电机1温度
+变桨电机2温度
+变桨电机3温度
+1#变桨电容温度
+2#变桨电容温度
+3#变桨电容温度
+变桨柜1温度
+变桨柜2温度
+变桨柜3温度
+wrot_invertertmp_bl1
+wrot_invertertmp_bl2
+wrot_invertertmp_bl3
+wrot_ng5tmp_bl1
+wrot_ng5tmp_bl2
+wrot_ng5tmp_bl3
+1#变桨电容电压
+2#变桨电容电压
+3#变桨电容电压
+1#变桨直流电压
+2#变桨直流电压
+3#变桨直流电压(vdc)
+ng5 1充电器直流电流
+ng5 2充电器直流电流
+ng5 3充电器直流电流
+1#叶片冗余旋碥位置
+2#叶片冗余旋碥位置
+3#叶片冗余旋碥位置
+叶片1速度
+叶片2速度
+叶片3速度
+变桨1软件版本
+变桨2软件版本
+变桨3软件版本
+wtur_tmhvelt_acttmval_h
+wtur_tmok_acttmval_h
+wtur_tmexflt_acttmval_h
+wtur_environment_ok_h
+wgen_tottm_acttmval_h
+wgen_totpwr_instmag_i_1
+wgen_pwrepd_instmag_i_1
+wtur_tmmtn_acttmval_h
+wgen_tostlimpowtm_acttmval_h
+wnac_wspd_instmag_f_1
+塔底环境温度(℃)
+变流器扭矩反馈值
+变流器电机转速值
+变流器输出扭矩
+变流器无功给定(kvar)
+变流器网侧电压
+变流器网侧电流
+变流器出水口温度
+变流器进水口温度
+变流器出水口压力
+进阀压力
+冷却水流量
+wtur_posi_1
+wgen_other_15s1
+wgen_other_60s1
+wgen_other_10m1
+wgen_other_15s2
+wgen_other_60s2
+wgen_other_10m2
+wtur_front_tmp1
+wtur_front_tmp2
+wtur_behind_tmp1
+wtur_behind_tmp2
+wtur_other_tmp1
+wtur_other_tmp2
+wtur_other_tmp3
+wtur_other_tmp4
+wgen_geninnercoolinglefttmp1
+wgen_geninnercoolinglefttmp2
+wgen_sensor7tmp
+发电机绕组温度8
+发电机绕组温度9
+发电机绕组温度10
+发电机绕组温度11
+发电机绕组温度12
+理论有功功率
+wtur_abswinddir
+数据可用状态
+    wt_number,
+    wt_date_time,
+    wt_wind_speed,
+    wt_wind_dir,
+    wt_temp,
+    wt_power,
+    wt_consume_power,
+    wt_electric,
+    wt_rotor1_local,
+    wt_rotor2_local,
+    wt_rotor3_local,
+    wt_rotor1_speed,
+    wt_rotor2_speed   ,
+    wt_rotor3_speed   ,
+    wt_bianJiang1_temp   ,
+    wt_bianJiang2_temp   ,
+    wt_bianJiang3_temp   ,
+    wt_bianJiangGui1_temp   ,
+    wt_bianJiangGui2_temp   ,
+    wt_bianJiangGui3_temp   ,
+    wt_motor_speed   ,
+    wt_real_power   ,
+    wt_pianHang_rank   ,
+    wt_pianHang_allRank   ,
+    wt_pianHang_local   ,
+    wt_control_temp   ,
+    wt_bianLiuQi_kw   ,
+    wt_bianLiuQi_speed   ,
+    wt_bianLiuQi_v   ,
+    wt_bianLiuQi_out_temp   ,
+    wt_bianLiuQi_in_temp   ,
+    wt_bianLiuQi_out_pressure   ,
+    wt_jiCang_temp   ,
+    wt_jiCangBianPin_temp

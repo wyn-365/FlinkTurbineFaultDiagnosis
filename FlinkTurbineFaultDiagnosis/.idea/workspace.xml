@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6841745a-f325-436a-abde-86fdaf857046" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Meaven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\APP\Meaven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WNbrSsuN8z6NAcWutDjqILb5G8" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-movie" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\resources" />
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\scala\com\wang\turbine\cleandata" />
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\scala\com\wang\turbine\sink" />
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\scala\com\wang\turbine\generatedata" />
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\java\com\wang\flink\generatedata" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wang.flink.cleandata" />
+      <recent name="com.wang.flink.checkpoint" />
+      <recent name="com.wang.flink.window" />
+      <recent name="com.wang.flink.sink" />
+      <recent name="com.wang.flink.transformation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\resources" />
+      <recent name="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\resources\turbine" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TurbineCleanData">
+    <configuration name="Filter01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.flink.transformation.Filter01" />
+      <module name="FlinkTurbineFaultDiagnosis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.flink.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatMap01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.flink.transformation.FlatMap01" />
+      <module name="FlinkTurbineFaultDiagnosis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.flink.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaToRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.flink.sink.KafkaToRedis" />
+      <module name="FlinkTurbineFaultDiagnosis" />
+      <option name="PROGRAM_PARAMETERS" value="D:\APP\IDEA\workplace\FlinkTurbineFaultDiagnosis\src\main\resources\config.properties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.flink.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyBy02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.flink.transformation.KeyBy02" />
+      <module name="FlinkTurbineFaultDiagnosis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.flink.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineCleanData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.flink.cleandata.TurbineCleanData" />
+      <module name="FlinkTurbineFaultDiagnosis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.flink.cleandata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Filter01" />
+      <item itemvalue="Application.FlatMap01" />
+      <item itemvalue="Application.KafkaToRedis" />
+      <item itemvalue="Application.KeyBy02" />
+      <item itemvalue="Application.TurbineCleanData" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TurbineCleanData" />
+        <item itemvalue="Application.KafkaToRedis" />
+        <item itemvalue="Application.KeyBy02" />
+        <item itemvalue="Application.Filter01" />
+        <item itemvalue="Application.FlatMap01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6841745a-f325-436a-abde-86fdaf857046" name="Default Changelist" comment="" />
+      <created>1578993197121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578993197121</updated>
+      <workItem from="1578993198809" duration="16332000" />
+      <workItem from="1579052601981" duration="24921000" />
+      <workItem from="1579137350875" duration="19859000" />
+      <workItem from="1579227201217" duration="6988000" />
+      <workItem from="1579487510838" duration="1624000" />
+      <workItem from="1579587117515" duration="1616000" />
+      <workItem from="1579754851780" duration="14801000" />
+      <workItem from="1579855151353" duration="1095000" />
+      <workItem from="1579910234125" duration="1087000" />
+      <workItem from="1580123126232" duration="55000" />
+      <workItem from="1580432656669" duration="6593000" />
+      <workItem from="1580460928938" duration="599000" />
+      <workItem from="1580525579870" duration="4000" />
+      <workItem from="1580548098827" duration="153000" />
+      <workItem from="1580721400488" duration="432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FlinkTurbineFaultDiagnosis$KafkaToRedis.ic" NAME="KafkaToRedis Coverage Results" MODIFIED="1579182654727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wang.flink.sink.*</FILTER>
+    </SUITE>
+  </component>
+</project>
